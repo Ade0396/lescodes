@@ -1,0 +1,14 @@
+
+#!/usr/bin/env bash
+
+if [ $1 -eq $2 ]
+
+then
+
+        echo "Les deux valeurs sont égales"
+
+else
+
+        echo "La valeur "$1" est différente de "$2""
+
+fi
