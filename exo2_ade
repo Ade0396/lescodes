@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+read -p "Entrez un nombre : " var
+
+if [ $var -ge 10 -a $var -le 99 ]
+
+then
+
+        echo "Bravo !"
+else
+
+        echo "Il faut un nombre à 2 chiffres"
+
+fi
