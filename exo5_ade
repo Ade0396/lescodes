@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+read -p "Veuillez saisir votre note : " note
+
+if [ $note -ge 16 -a $note -le  20 ]
+        then
+                echo "Très bien !"
+
+elif [ $note -ge 14 -a $note -le 16 ]
+        then
+                echo "Bien"
+
+elif [ $note -ge 12 -a $note -le 14 ]
+        then
+                echo "Assez bien"
+
+elif [ $note -ge 10 -a $note -le 12 ]
+        then
+                echo "Moyen"
+
+elif [ $note -le 9 -a $note -gt 1 ]
+        then
+                echo "Insuffisant"
+
+elif [ $note -eq 0 ]
+        then
+                echo "Tu es vraiment très nul !"
+
+fi
+
