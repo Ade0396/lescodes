@@ -1,0 +1,17 @@
+!/usr/bin/env bash
+
+read -p "Veuillez entrer le mot de passe : " pass
+
+pswd="4253"
+
+if [ $pass -eq $pswd ]
+
+then
+
+        echo "Gagné !"
+
+else
+
+        echo "Perdu ! :("
+
+fi
