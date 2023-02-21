@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+if [ $1 -gt $2 -a $1 -gt $3  ]
+
+then
+
+        echo ""$1" est la valeur la plus grande"
+
+elif [ $2 -gt $1 -a $2 -gt $3 ]
+
+then
+
+        echo ""$2" est la valeur la plus grande"
+
+elif [ $3 -gt $1 -a $3 -gt $2 ]
+
+then
+
+        echo ""$3" est la valeur la plus grande"
+
+
+fi
