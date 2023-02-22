@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+i=1
+total =0
+while [[ $i -le 10 ]];
+do
+        echo $i
+        (( i+=1))
+        total=$((total+i))
+
+done
+
+echo $total
