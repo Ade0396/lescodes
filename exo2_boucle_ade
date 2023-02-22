@@ -1,0 +1,16 @@
+
+#!/usr/bin/env bash
+
+read -p "Entrez une valeur : " val
+
+reste=$((val%2))
+compteur=0
+
+while [[ $reste  -eq 0 ]]
+do
+        compteur=$((compteur + 1))
+        val=$((val / 2))
+        reste=$((val%2))
+done
+
+echo "Ce nombre est divisible "$compteur" fois"
